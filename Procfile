@@ -1,1 +1,2 @@
-web: gunicorn digital_library.wsgi:application 
+web: gunicorn digital_library.wsgi:application
+
