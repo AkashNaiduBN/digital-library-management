@@ -267,7 +267,7 @@ tornado @ file:///C:/ci/tornado_1606942392901/work
 tqdm @ file:///tmp/build/80754af9/tqdm_1615925068909/work
 traitlets @ file:///home/ktietz/src/ci/traitlets_1611929699868/work
 typed-ast @ file:///C:/ci/typed-ast_1610466535590/work
-typing-extensions==4.12.2
+typing_extensions==4.12.2
 tzdata==2025.1
 ujson @ file:///C:/ci/ujson_1611241570789/work
 unicodecsv==0.14.1
