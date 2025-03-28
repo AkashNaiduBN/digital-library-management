@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book List</title>
+</head>
+<body>
+    <h1>Book List</h1>
+    <form method="GET" action="{% url 'search_book' %}">
+        <input type="text" name="q" placeholder="Search by Title" value="{{ query }}">
+        <button type="submit">Search</button>
+    </form>
+    <ul>
+        {% for book in books %}
+            <li>
+                {{ book.title }} by {{ book.author }} - {{ book.availability }}
+                <a href="{% url 'update_book' book.book_id %}">Edit</a>
+                <a href="{% url 'delete_book' book.book_id %}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'add_book' %}">Add a New Book</a>
+</body>
+</html>
