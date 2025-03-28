@@ -2,7 +2,9 @@ anaconda-client==1.2.2
 certifi==2025.1.31
 charset-normalizer==3.4.1
 clyent==1.2.1
+gunicorn==23.0.0
 idna==3.10
+packaging==24.2
 python-dateutil==2.9.0.post0
 pytz==2025.2
 PyYAML==6.0.2
